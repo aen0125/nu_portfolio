@@ -1,0 +1,21 @@
+{
+  "name": "portfolio-project",
+  "version": "1.0.0",
+  "description": "Portfolio Project",
+  "main": "index.html",
+  "dependencies": {
+    "bootstrap-social": "^5.1.1",
+    "font-awesome": "^4.7.0",
+    "live-server": "^1.2.1"
+  },
+  "devDependencies": {
+    "lite-server": "^2.6.1"
+  },
+  "scripts": {
+    "lite": "lite-server",
+    "start": "npm run lite",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Ambrose",
+  "license": "ISC"
+}
