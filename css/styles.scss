@@ -1,0 +1,65 @@
+$color-primary: #7665A6;
+$color-secondary: #7868BC;
+$color-pale: #E5C8FF;
+$color-mid: #A492FF;
+$color-dark: #9D6ABC;
+$color-black-transparent: rgba(0, 0, 0, 0.5);
+
+$body-font: "Open Sans", sans-serif;
+$header-font: 'Shadows Into Light', cursive;
+
+* {
+    scroll-behavior: smooth;
+}
+
+.navbar {
+    background-color: $color-primary;
+    font-family: 'Shadows Into Light', cursive;
+    font-size: x-large;
+}
+
+.jumbotron {
+    background-color: $color-primary;
+    margin-top: 0px;
+}
+
+#imgLink {
+    width: 300px;
+    height: 200px;    
+}
+
+.center {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: $color-black-transparent;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    font-family: 'Shadows Into Light', cursive;
+    font-size: xx-large;
+}
+
+.row-content {
+    padding: 50px 0;
+    border-bottom: 1px ridge;
+    min-height: 200px;
+}
+
+.threePic {
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+}
+
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
+.site-footer {
+    background-image: linear-gradient($color-primary, white);
+    padding: 20px 0;
+}
