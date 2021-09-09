@@ -63,3 +63,63 @@ $header-font: 'Shadows Into Light', cursive;
     background-image: linear-gradient($color-primary, white);
     padding: 20px 0;
 }
+
+#landing-row {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 1px;
+}
+
+#landing-column {
+    flex: 25%;
+    max-width: 25%;
+    padding: 0 4px;
+}
+
+#landing-column {
+    img {
+        margin-top: 8px;
+        vertical-align: middle;
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    #landing-column {
+        flex: 25%;
+        max-width: 25%;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    #landing-column {
+        flex: auto;
+        max-width: 100%;
+    }
+}
+
+.myButton {
+    color: white; 
+    font-size: 22px; 
+    line-height: 22px; 
+    padding: 12px; 
+    border-radius: 20px; 
+    font-family: 'Shadows into Light', cursive; 
+    font-weight: normal;  
+    font-style: normal; 
+    font-variant: normal; 
+    background-image: linear-gradient(135deg, rgb(193, 186, 254) 0%, rgb(157, 138, 183) 62%, rgb(103, 87, 147) 100%); 
+    border: 2px solid white; 
+    float: right;
+    a {
+        color: white;
+    }
+}
+
+.myButton:hover {
+    background: #C1BAFE; 
+}
+
+.myButton:active {
+    background: #675793;
+}
