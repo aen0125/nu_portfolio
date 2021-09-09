@@ -4,9 +4,12 @@
   "description": "Portfolio Project",
   "main": "index.html",
   "dependencies": {
+    "bootstrap": "^4.5.2",
     "bootstrap-social": "^5.1.1",
     "font-awesome": "^4.7.0",
-    "live-server": "^1.2.1"
+    "jquery": "^3.5.1",
+    "live-server": "^1.2.1",
+    "popper.js": "^1.16.1"
   },
   "devDependencies": {
     "copyfiles": "^2.2.0",
@@ -25,7 +28,7 @@
     "watch:all": "parallelshell \"npm run watch:scss\" \"npm run lite\"",
     "copyfonts": "copyfiles -f node_modules/font-awesome/fonts/* dist/fonts",
     "imagemin": "imagemin img/* -o dist/img",
-    "usemin": "usemin travelblog.html -d dist --htmlmin -o dist/travelblog.html && usemin aboutus.html -d dist --htmlmin -o dist/aboutus.html && usemin index.html -d dist --htmlmin -o dist/index.html && usemin landing.html -d dist --htmlmin -o dist/landing.html",
+    "usemin": "usemin mainpage.html -d dist --htmlmin -o dist/mainpage.html && usemin index.html -d dist --htmlmin -o dist/index.html",
     "clean": "rimraf dist",
     "build": "npm run clean && npm run imagemin && npm run copyfonts && npm run usemin",
     "start": "npm run watch:all",
