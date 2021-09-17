@@ -28,7 +28,7 @@
     "watch:all": "parallelshell \"npm run watch:scss\" \"npm run lite\"",
     "copyfonts": "copyfiles -f node_modules/font-awesome/fonts/* dist/fonts",
     "imagemin": "imagemin img/* -o dist/img",
-    "usemin": "usemin mainpage.html -d dist --htmlmin -o dist/mainpage.html && usemin index.html -d dist --htmlmin -o dist/index.html",
+    "usemin": "usemin mainpage.html -d dist --htmlmin -o dist/mainpage.html && usemin index.html -d dist --htmlmin -o dist/index.html && usemin travel.html -d dist --htmlmin -o dist/travel.html && usemin food.html -d dist --htmlmin -o dist/food.html",
     "clean": "rimraf dist",
     "build": "npm run clean && npm run imagemin && npm run copyfonts && npm run usemin",
     "start": "npm run watch:all",

@@ -1,4 +1,4 @@
-$('img').bind('mouseenter mouseleave', function() {
+$('img').on('mouseenter mouseleave', function() {
     $(this).attr({
         src: $(this).attr('data-other-src') 
         , 'data-other-src': $(this).attr('src') 

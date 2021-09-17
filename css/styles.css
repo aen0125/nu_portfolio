@@ -91,3 +91,6 @@
 
 .myButton:active {
   background: #675793; }
+
+.card {
+  box-shadow: 5px 5px 6px 0px #E5C8FF; }
